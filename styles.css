@@ -1,7 +1,26 @@
 body {
- margin: 0;
  font-family: "Work sans", sans-serif;
- /* background: url(/images/background.webp) no-repeat;
- background-size: ;
-/* } */ */
+ margin: 0;
+}
+
+main {
+ margin: 0 15%;
+}
+footer {
+ width: 50%;
+}
+div {
+ text-align: center;
+ border: 4px double black;
+ box-shadow: 3px -2px 4px black;
+ padding: 0 3rem;
+ margin: 2rem 0;
+}
+
+#title img {
+ float: left;
+ border: 3px solid rgb(82, 82, 82);
+ box-shadow: 3px -2px 4px black;
+ border-radius: 1rem;
+ margin: 0 2rem;
 }
