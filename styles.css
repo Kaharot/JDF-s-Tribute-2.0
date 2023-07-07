@@ -94,7 +94,7 @@ div {
 
 #life {
  display: inline-block;
- background-color: var(--color-green);
+ background: linear-gradient(180deg, var(--color-white), var(--color-green));
  margin: 4rem 0;
  padding: 1rem 2rem;
 }
