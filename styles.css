@@ -11,6 +11,7 @@ html {
 body {
  font-family: "Work sans", sans-serif;
  font-size: 1rem;
+ text-align: justify;
  line-height: 1.5rem;
  margin: 0;
  padding: 0;
@@ -60,11 +61,20 @@ main {
 }
 
 h1 {
+ font-family: "Roboto Serif", sans-serif;
  font-size: 2.5rem;
- margin: 0.6rem 0 0.6rem 0;
+ margin: 2rem 0 0.6rem 0;
+}
+
+h2 {
+ font-family: "Roboto Serif", sans-serif;
+ font-size: 2rem;
+ text-decoration: underline;
 }
 
 h3 {
+ font-family: "Roboto Serif", sans-serif;
+ font-size: 1.5rem;
  margin: 0rem 0 0.6rem;
  padding: 0 0 0.6rem;
 }
@@ -91,7 +101,7 @@ div {
  padding: 0.5rem 0.5rem;
 }
 #quote li {
- margin: 1.5rem 0;
+ margin: 0 0 1.5rem;
 }
 
 #life {
@@ -100,7 +110,16 @@ div {
  padding: 1rem 2rem;
 }
 
+/* #life h2 {
+ margin-left: 0.83rem;
+} */
+
+/* #life p {
+ text-align: justify;
+} */
+
 #title {
+ margin: 2rem;
  display: grid;
  grid-template-columns: 30% auto;
  grid-template-rows: auto;
@@ -150,25 +169,39 @@ div {
 }
 
 #jdf-present {
+ margin: 0 1rem 1rem 0;
  float: left;
 }
 
 #jdf-young {
+ margin: 0 0 1rem 1rem;
  float: right;
+}
+
+#heading-two h2 {
+ background: var(--color-green);
+ margin: 0;
+ padding: 2rem 2rem 1rem;
+ text-align: left;
+ border-top: 0.25rem double var(--color-dark-grey);
 }
 
 #fan {
  background: linear-gradient(180deg, var(--color-green), var(--color-grey));
  padding: 1rem 2rem;
  display: flex;
+ align-items: center;
 }
 
 #fan p {
- display: inline;
+ padding: 0 2.5rem;
 }
 
 #fan img {
  width: 16rem;
+ border: 0.2rem solid var(--color-dark-grey);
+ box-shadow: 0.2rem -0.2rem 0.5rem var(--color-grey);
+ border-radius: 0.5rem;
 }
 
 #return {
