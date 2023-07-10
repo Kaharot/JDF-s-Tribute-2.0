@@ -15,7 +15,12 @@ body {
  line-height: 1.5rem;
  margin: 0;
  padding: 0;
- background: linear-gradient(0deg, var(--color-white), var(--color-dark-grey));
+ background: linear-gradient(
+  180deg,
+  var(--color-red),
+  var(--color-white),
+  var(--color-dark-grey)
+ );
 }
 header {
  background-image: url(images/banner.jpg);
