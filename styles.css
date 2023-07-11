@@ -32,7 +32,7 @@ nav ul {
  padding: 0.5rem 0;
 }
 
-ul a,
+nav > ul a,
 #return {
  text-decoration: none;
  background-color: var(--color-green);
@@ -180,9 +180,7 @@ div {
 
 #fan img {
  width: 16rem;
- border-right: 0.5 solid
-
- /* border: 0.2rem solid var(--color-dark-grey); */
+ border-right: 0.5 solid /* border: 0.2rem solid var(--color-dark-grey); */;
  box-shadow: 0.2rem -0.2rem 0.5rem var(--color-grey);
  border-radius: 0.5rem;
 }
@@ -203,7 +201,7 @@ footer {
  background-color: var(--color-red);
  text-align: center;
  color: white;
- padding: 1rem 0;
+ padding-top: 1rem;
 }
 
 footer a {
@@ -213,4 +211,14 @@ footer a {
 
 footer a:hover {
  color: var(--color-white-grey);
+ border: 1px solid var(--color-dark-grey);
+ background-color: var(--color-grey);
+ padding: 5px;
+ border-radius: 5px;
+}
+
+footer > ul {
+ list-style: none;
+ padding: 0 1rem 1rem;
+ text-align: left;
 }
