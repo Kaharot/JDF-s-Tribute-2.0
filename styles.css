@@ -18,7 +18,7 @@ body {
  background: linear-gradient(0deg, var(--color-white), var(--color-dark-grey));
 }
 header {
- background-image: url(images/banner.jpg);
+ background-image: url(/images/banner.jpg);
  background-repeat: no-repeat;
  background-size: cover;
  width: 100%;
@@ -220,5 +220,5 @@ footer a:hover {
 footer > ul {
  list-style: none;
  padding: 0 1rem 1rem;
- text-align: left;
+ text-align: center;
 }
