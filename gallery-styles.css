@@ -21,7 +21,7 @@ body {
  background: linear-gradient(0deg, var(--color-white), var(--color-dark-grey));
 }
 header {
- background-image: url(/images/banner.jpg);
+ background-image: url(/images/index/banner.jpg);
  background-repeat: no-repeat;
  background-size: cover;
  width: 100%;
