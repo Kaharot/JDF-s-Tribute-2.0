@@ -1,0 +1,98 @@
+html {
+ --color-green: rgb(138, 170, 121);
+ --color-white: rgb(255, 247, 248);
+ --color-white-grey: rgb(202, 202, 202);
+ --color-white-trans: rgba(255, 247, 248, 0.801);
+ --color-red: rgb(146, 20, 12);
+ --color-grey: rgb(67, 80, 88);
+ --color-dark-grey: rgb(20, 20, 20);
+}
+
+body {
+ height: 100%;
+ font-family: "Work sans", sans-serif;
+ font-size: 1rem;
+ text-align: justify;
+ line-height: 1.5rem;
+ margin: 0;
+ padding: 0;
+ background: linear-gradient(0deg, var(--color-white), var(--color-dark-grey));
+}
+header {
+ background-image: url(/images/index/banner.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 100%;
+ height: 20rem;
+}
+nav ul {
+ list-style: none;
+ display: flex;
+ background-color: var(--color-grey);
+ margin: 0;
+ padding: 0.5rem 0;
+}
+
+nav > ul a,
+#return {
+ text-decoration: none;
+ background-color: var(--color-green);
+ padding: 0.25rem 0.5rem;
+ color: var(--color-dark-grey);
+ border: 1px solid var(--color-grey);
+ border-radius: 4px;
+ margin: 0;
+}
+
+ul a:hover,
+#return:hover {
+ transition: 1s;
+ color: var(--color-white);
+ background-color: var(--color-red);
+}
+
+nav li {
+ padding: 0.3rem;
+}
+
+h1 {
+ font-family: "Roboto Serif", sans-serif;
+ font-size: 2.5rem;
+}
+
+#return {
+ font-size: medium;
+ display: block;
+ border: thin solid var(--color-dark-grey);
+ background-color: var(--color-red);
+}
+
+#return:hover {
+ background-color: var(--color-grey);
+}
+
+footer {
+ font-size: x-small;
+ background-color: var(--color-red);
+ text-align: center;
+}
+
+footer a {
+ text-decoration: none;
+ color: var(--color-white);
+}
+
+footer a:hover {
+ color: var(--color-white-grey);
+ border: 1px solid var(--color-dark-grey);
+ background-color: var(--color-grey);
+ padding: 5px;
+ border-radius: 5px;
+}
+
+footer > ul {
+ list-style: none;
+ padding: 0 1rem;
+ text-align: center;
+ display: inline-block;
+}
